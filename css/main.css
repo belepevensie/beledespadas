@@ -84,7 +84,7 @@ h6 {
 
 .site-header {
   background-color: #a171b9;
-  color: #a171b9;
+  color: #030004;
   padding: 15px 0;
 }
 
@@ -102,7 +102,7 @@ h6 {
 
 .site-body__main {
   flex: 1 1 50%;
-  padding: 6px;
+  padding: 15px;
   background-color: azure;
 }
 
