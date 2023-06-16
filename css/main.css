@@ -32,6 +32,7 @@ body {
   }
 }
 
+a,
 h1,
 h2,
 h3,
@@ -59,7 +60,8 @@ h2 {
   font-size: 2em;
 }
 
-h3 {
+h3,
+a {
   font-size: 1.75em;
 }
 
@@ -86,8 +88,17 @@ h6 {
   background-color: #a171b9;
   color: #030004;
   padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.header-links {
+  max-width: 1200px;
+  margin: auto 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .site-body {
   flex: 1 1 auto;
   display: flex;
